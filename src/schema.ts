@@ -49,6 +49,6 @@ type Comment{
     
   }
   input CreateUser{
-    #ummmmm i'm Bored, leaving for some Other Day
+    #ummmmm i got some work, leaving for someother day
   }
 `
