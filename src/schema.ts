@@ -35,4 +35,20 @@ type Comment{
      post(id:ID!):Post!
      comment(id:ID!):Comment!
   }
+
+  type mutation {
+    # createUser(data:CreateUser): User!
+    # createPost(data:CreatePost): post!
+    createComment(data:CreateComment): Comment!
+    # UpdateUser(data:UpdateUser): User!
+    UpdatePost(data:UpdatePost): post!
+    # UpdateComment(data:UpdateComment): Comment!
+    DeleteUser(data:DeleteUser): post!
+    # DeletePost(data:DeletePost): User!
+    # DeleteComment(data:DeleteComment): Comment!
+    
+  }
+  input CreateUser{
+    #ummmmm i'm Bored, leaving for some Other Day
+  }
 `
